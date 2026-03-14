@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am **Yunxiang Wei** (魏云翔 in Chinese), an undergraduate student at **Zhejiang University** from 2023 to 2027, based in Hangzhou, Zhejiang.
+I am **Yunxiang Wei** (魏云翔 in Chinese), an undergraduate student at **Zhejiang University**.
 
 My primary research interest lies in **code LLMs and agents**. I am particularly interested in deploying LLMs in real-world tasks such as coding and scientific research. In coding, my work focuses on the **reliability** of generated code, including detecting data risks and estimating or verifying correctness.
 
