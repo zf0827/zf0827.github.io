@@ -15,6 +15,30 @@
 
 See more info at https://academicpages.github.io/
 
+## Publications format
+
+This site is configured to show a minimal publication entry:
+
+- paper title
+- publication venue and year
+- optional `Code` and `Demo` links
+
+For files in `_publications/`, use front matter like:
+
+```yaml
+---
+title: "Paper Title"
+collection: publications
+permalink: /publication/paper-slug
+date: 2026-01-01
+venue: "Conference or arXiv"
+codeurl: "https://github.com/example/repo"   # optional
+demourl: "https://example-demo.com"          # optional
+---
+```
+
+`citation`, `paperurl`, and download-style links are not used in the current publications layout.
+
 ## Running locally
 
 When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
