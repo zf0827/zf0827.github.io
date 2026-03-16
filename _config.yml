@@ -1,6 +1,15 @@
 title: Yunxiang Wei
 description: Undergraduate student at Zhejiang University working on code LLMs, agents, and reliable AI systems.
-logo: /images/yunxiang-wei.jpg
+avatar: /images/yunxiang-wei.jpg
+native_name: 魏云翔
+position: Undergraduate
+affiliation: Zhejiang University
+location: Hangzhou, Zhejiang, China
+email: yunxwei@zju.edu.cn
+email_display: yunxwei at zju dot edu dot cn
+github_url: https://github.com/zf0827
+# scholar_url: https://scholar.google.com/scholar?q=Yunxiang+Wei+Zhejiang+University
+cv_url: /files/CV.pdf
 show_downloads: false
 theme: jekyll-theme-minimal
 url: https://zf0827.github.io

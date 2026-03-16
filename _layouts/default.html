@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="profile-card">
+        <div class="profile-card__inner">
+          {% if site.avatar %}
+            <a class="profile-card__photo-link" href="{{ "/" | relative_url }}" aria-label="{{ site.title }}">
+              <img class="profile-card__photo" src="{{ site.avatar | relative_url }}" alt="{{ site.title }}">
+            </a>
+          {% endif %}
+
+          <div class="profile-card__heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.native_name %}
+              <p class="profile-card__native">{{ site.native_name }}</p>
+            {% endif %}
+            {% if site.position %}
+              <p class="profile-card__role">{{ site.position }}</p>
+            {% endif %}
+            {% if site.affiliation %}
+              <p class="profile-card__affiliation">{{ site.affiliation }}</p>
+            {% endif %}
+            {% if site.location %}
+              <p class="profile-card__location">{{ site.location }}</p>
+            {% endif %}
+          </div>
+
+          {% if site.email %}
+            <a class="profile-card__email" href="mailto:{{ site.email }}">
+              {{ site.email_display | default: site.email }}
+            </a>
+          {% endif %}
+
+          <div class="profile-links" aria-label="External links">
+            {% if site.github_url %}
+              <a class="profile-link" href="{{ site.github_url }}" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <span class="profile-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.32 6.84 9.67.5.1.66-.22.66-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.46-1.19-1.12-1.51-1.12-1.51-.91-.64.07-.63.07-.63 1 .08 1.53 1.06 1.53 1.06.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.11-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05A9.28 9.28 0 0 1 12 6.83c.85 0 1.71.12 2.51.36 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.21 2.47.1 2.73.64.72 1.03 1.64 1.03 2.76 0 3.94-2.35 4.81-4.59 5.06.36.32.69.94.69 1.91 0 1.38-.01 2.49-.01 2.83 0 .27.18.6.67.49A10.22 10.22 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"></path>
+                  </svg>
+                </span>
+              </a>
+            {% endif %}
+
+            {% if site.scholar_url %}
+              <a class="profile-link" href="{{ site.scholar_url }}" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+                <span class="profile-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-7 8.18V15c0 2.76 3.13 5 7 5s7-2.24 7-5v-3.82l-7 3.82-7-3.82Z"></path>
+                  </svg>
+                </span>
+              </a>
+            {% endif %}
+
+            {% if site.cv_url %}
+              <a class="profile-link" href="{{ site.cv_url | relative_url }}" target="_blank" rel="noreferrer" aria-label="CV">
+                <span class="profile-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M7 2h7l5 5v13a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm6 1.5V8h4.5L13 3.5ZM9 12v1.5h6V12H9Zm0 3v1.5h6V15H9Zm0-6v1.5h3V9H9Z"></path>
+                  </svg>
+                </span>
+              </a>
+            {% endif %}
+
+            {% if site.email %}
+              <a class="profile-link" href="mailto:{{ site.email }}" aria-label="Email">
+                <span class="profile-link__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.51l9 5.9 9-5.9V7H3Zm18 10V9.89l-8.45 5.54a1 1 0 0 1-1.1 0L3 9.89V17h18Z"></path>
+                  </svg>
+                </span>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </aside>
+
+      <main class="content-column">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
