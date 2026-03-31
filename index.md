@@ -49,7 +49,12 @@ title: Yunxiang Wei
         <strong>Yunxiang Wei</strong>, Tianlin Li, Zheng Yuwei, Yanni Dong, Aishan Liu,
         Xianglong Liu
       </p>
-      <p class="publication-item__venue">Preprint, 2026.</p>
+      <p class="publication-item__venue">arXiv, 2026.</p>
+      <p class="publication-item__links">
+        <a href="https://arxiv.org/abs/2603.27098">arXiv</a>
+        <span>/</span>
+        <a href="https://github.com/zf0827/Ensemble-Semantic-Entropy/tree/master">Code</a>
+      </p>
     </article>
 
     <article class="publication-item">
