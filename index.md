@@ -10,7 +10,7 @@ title: Yunxiang Wei
     </p>
     <div class="about-copy">
       <p>
-        My primary research interest lies in Natural Language Processing. I am particularly interested in deploying LLMs in real-world tasks such as coding and scientific research.
+        My primary research interest lies in CodeLLMs and Agents. I am particularly interested in deploying LLMs in real-world tasks such as coding and scientific research.
       </p>
       <p>
         In coding, my work focuses on the reliability of AI-generated code.
@@ -27,54 +27,91 @@ title: Yunxiang Wei
   <h2>Publications</h2>
   <div class="publication-list">
     <article class="publication-item">
-      <p class="publication-item__title">
-        Are AI Coders Snitches? An Empirical Study of Training Data Detection on Code Large
-        Language Models
-      </p>
-      <p class="publication-item__authors">
-        Tianlin Li, <strong>Yunxiang Wei</strong>, Zhiming Li, Aishan Liu, Qing Guo,
-        Xianglong Liu, Dongning Sun, Yang Liu
-      </p>
-      <p class="publication-item__venue">arXiv, 2025.</p>
-      <p class="publication-item__links">
-        <a href="https://arxiv.org/abs/2507.17389">arXiv</a>
-        <span>/</span>
-        <a href="https://github.com/zf0827/codellms-pdd">Code</a>
-      </p>
+      <a class="publication-item__thumb" href="https://arxiv.org/abs/2507.17389">
+        <img src="/images/papers/codellms-pdd.png" alt="Are AI Coders Snitches?">
+      </a>
+      <div class="publication-item__content">
+        <p class="publication-item__title">
+          Are AI Coders Snitches? An Empirical Study of Training Data Detection on Code Large
+          Language Models
+        </p>
+        <p class="publication-item__authors">
+          Tianlin Li, <strong>Yunxiang Wei</strong>, Zhiming Li, Aishan Liu, Qing Guo,
+          Xianglong Liu, Dongning Sun, Yang Liu
+        </p>
+        <p class="publication-item__venue">arXiv, 2025.</p>
+        <p class="publication-item__links">
+          <a href="https://arxiv.org/abs/2507.17389">arXiv</a>
+          <span>/</span>
+          <a href="https://github.com/zf0827/codellms-pdd">Code</a>
+        </p>
+      </div>
     </article>
 
     <article class="publication-item">
-      <p class="publication-item__title">Predicting Program Correctness With Ensemble Semantic Entropy</p>
-      <p class="publication-item__authors">
-        <strong>Yunxiang Wei</strong>, Tianlin Li, Zheng Yuwei, Yanni Dong, Aishan Liu,
-        Xianglong Liu
-      </p>
-      <p class="publication-item__venue">arXiv, 2026.</p>
-      <p class="publication-item__links">
-        <a href="https://arxiv.org/abs/2603.27098">arXiv</a>
-        <span>/</span>
-        <a href="https://github.com/zf0827/Ensemble-Semantic-Entropy/tree/master">Code</a>
-      </p>
+      <a class="publication-item__thumb" href="https://arxiv.org/abs/2603.27098">
+        <img src="/images/papers/ensemble-semantic-entropy.png" alt="Predicting Program Correctness With Ensemble Semantic Entropy">
+      </a>
+      <div class="publication-item__content">
+        <p class="publication-item__title">Predicting Program Correctness With Ensemble Semantic Entropy</p>
+        <p class="publication-item__authors">
+          <strong>Yunxiang Wei</strong>, Tianlin Li, Zheng Yuwei, Yanni Dong, Aishan Liu,
+          Xianglong Liu
+        </p>
+        <p class="publication-item__venue">arXiv, 2026.</p>
+        <p class="publication-item__links">
+          <a href="https://arxiv.org/abs/2603.27098">arXiv</a>
+          <span>/</span>
+          <a href="https://github.com/zf0827/Ensemble-Semantic-Entropy/tree/master">Code</a>
+        </p>
+      </div>
     </article>
 
     <article class="publication-item">
-      <p class="publication-item__title">
-        InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective
-        Reasoning Problem
-      </p>
-      <p class="publication-item__authors">
-        Shuofei Qiao, <strong>Yunxiang Wei</strong>, Xuehai Wang, Bin Wu, Boyang Xue,
-        Ningyu Zhang, Hossein A. Rahmani, Yanshan Wang, Qiang Zhang, Keyan Ding,
-        Jeff Z. Pan, Huajun Chen, Emine Yilmaz
-      </p>
-      <p class="publication-item__venue">arXiv, 2026.</p>
-      <p class="publication-item__links">
-        <a href="https://arxiv.org/abs/2602.14367">arXiv</a>
-        <span>/</span>
-        <a href="https://github.com/zjunlp/innoeval">Code</a>
-        <span>/</span>
-        <a href="http://innoeval.zjukg.cn/">Demo</a>
-      </p>
+      <a class="publication-item__thumb" href="https://arxiv.org/abs/2602.14367">
+        <img src="/images/papers/innoeval.png" alt="InnoEval">
+      </a>
+      <div class="publication-item__content">
+        <p class="publication-item__title">
+          InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective
+          Reasoning Problem
+        </p>
+        <p class="publication-item__authors">
+          Shuofei Qiao, <strong>Yunxiang Wei</strong>, Xuehai Wang, Bin Wu, Boyang Xue,
+          Ningyu Zhang, Hossein A. Rahmani, Yanshan Wang, Qiang Zhang, Keyan Ding,
+          Jeff Z. Pan, Huajun Chen, Emine Yilmaz
+        </p>
+        <p class="publication-item__venue">ICML regular, 2026.</p>
+        <p class="publication-item__links">
+          <a href="https://arxiv.org/abs/2602.14367">arXiv</a>
+          <span>/</span>
+          <a href="https://github.com/zjunlp/innoeval">Code</a>
+          <span>/</span>
+          <a href="http://innoeval.zjukg.cn/">Demo</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="publication-item">
+      <a class="publication-item__thumb" href="https://arxiv.org/abs/2605.22878">
+        <img src="/images/papers/sciatlas.png" alt="SciAtlas">
+      </a>
+      <div class="publication-item__content">
+        <p class="publication-item__title">
+          SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research
+        </p>
+        <p class="publication-item__authors">
+          Shuofei Qiao<sup>*</sup>, <strong>Yunxiang Wei</strong><sup>*</sup>, Jiazheng Fan,
+          Bin Wu, Busheng Zhang, Mengru Wang, Yuqi Zhu, Ningyu Zhang, Keyan Ding,
+          Qiang Zhang, Huajun Chen
+        </p>
+        <p class="publication-item__venue">arXiv, 2026.</p>
+        <p class="publication-item__links">
+          <a href="https://arxiv.org/abs/2605.22878">arXiv</a>
+          <span>/</span>
+          <a href="https://github.com/zjunlp/SciAtlas">SciAtlas</a>
+        </p>
+      </div>
     </article>
   </div>
 </section>
