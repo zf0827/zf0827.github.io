@@ -1,22 +1,19 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
-export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
-
-if pgrep -af "jekyll serve|bundle exec jekyll serve|vendor/bundle/.*/jekyll serve" >/dev/null 2>&1; then
-  echo "Jekyll preview is already running:"
-  pgrep -af "jekyll serve|bundle exec jekyll serve|vendor/bundle/.*/jekyll serve"
-  echo "Use scripts/jekyll-stop.sh to stop it first."
-  exit 1
+# Use the existing local Ruby installation when available. Other environments
+# can select a compatible Ruby through their normal PATH/version manager.
+if [[ -x /opt/homebrew/opt/ruby@3.1/bin/ruby ]]; then
+  export PATH="/opt/homebrew/opt/ruby@3.1/bin:$PATH"
 fi
 
-echo "Starting Jekyll preview at http://127.0.0.1:4000"
+echo "Starting Jekyll preview. Press Ctrl-C to stop this server."
 if [[ "${JEKYLL_LIVERELOAD:-0}" == "1" ]]; then
-  exec bundle exec jekyll serve --livereload
+  exec bundle exec jekyll serve --livereload "$@"
 else
-  exec bundle exec jekyll serve
+  exec bundle exec jekyll serve "$@"
 fi

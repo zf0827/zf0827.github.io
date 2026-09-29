@@ -1,0 +1,122 @@
+# Publication order follows the homepage. All content is maintained here.
+
+- title: "Are AI Coders Snitches? An Empirical Study of Training Data Detection on Code Large Language Models"
+  image: "/images/papers/codellms-pdd.png"
+  image_alt: "Are AI Coders Snitches?"
+  url: "https://arxiv.org/abs/2507.17389"
+  authors:
+    - name: "Tianlin Li"
+      equal_contribution: true
+    - name: "Yunxiang Wei"
+      equal_contribution: true
+    - name: "Zhiming Li"
+    - name: "Aishan Liu"
+    - name: "Qing Guo"
+    - name: "Xianglong Liu"
+    - name: "Dongning Sun"
+    - name: "Yang Liu"
+  venue: "arXiv preprint, 2025."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2507.17389"
+    - label: "Code"
+      url: "https://github.com/zf0827/codellms-pdd"
+
+- title: "Predicting Program Correctness With Ensemble Semantic Entropy"
+  image: "/images/papers/ensemble-semantic-entropy.png"
+  image_alt: "Predicting Program Correctness With Ensemble Semantic Entropy"
+  url: "https://arxiv.org/abs/2603.27098"
+  authors:
+    - name: "Yunxiang Wei"
+    - name: "Tianlin Li"
+    - name: "Yuwei Zheng"
+    - name: "Yanni Dong"
+    - name: "Aishan Liu"
+    - name: "Qiang Hu"
+    - name: "Xiaoyu Zhang"
+    - name: "Mingfei Cheng"
+    - name: "Jian Yang"
+  venue: "arXiv preprint, 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.27098"
+    - label: "Code"
+      url: "https://github.com/zf0827/Ensemble-Semantic-Entropy"
+
+- title: "SemNav: Semantic Navigation for Repository-Level Issue Localization"
+  image: "/images/papers/semnav.png"
+  image_alt: "SemNav: Semantic Navigation for Repository-Level Issue Localization"
+  url: "https://arxiv.org/abs/2609.31176"
+  authors:
+    - name: "Yunxiang Wei"
+    - name: "Zhenyu Lei"
+    - name: "Jundong Li"
+  venue: "arXiv preprint, 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2609.31176"
+
+- title: "InnoEval: On Research Idea Evaluation as a Knowledge-Grounded, Multi-Perspective Reasoning Problem"
+  image: "/images/papers/innoeval.png"
+  image_alt: "InnoEval"
+  url: "https://arxiv.org/abs/2602.14367"
+  authors:
+    - name: "Shuofei Qiao"
+    - name: "Yunxiang Wei"
+    - name: "Xuehai Wang"
+    - name: "Bin Wu"
+    - name: "Boyang Xue"
+    - name: "Ningyu Zhang"
+    - name: "Hossein A. Rahmani"
+    - name: "Yanshan Wang"
+    - name: "Qiang Zhang"
+    - name: "Keyan Ding"
+    - name: "Jeff Z. Pan"
+    - name: "Huajun Chen"
+    - name: "Emine Yilmaz"
+  venue: "International Conference on Machine Learning (ICML), 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2602.14367"
+    - label: "Code"
+      url: "https://github.com/zjunlp/innoeval"
+    - label: "Demo"
+      url: "http://innoeval.zjukg.cn/"
+
+- title: "SciAtlas: A Computable Atlas of Science for Knowledge-Grounded AI Research"
+  image: "/images/papers/sciatlas.png"
+  image_alt: "SciAtlas"
+  url: "https://arxiv.org/abs/2605.22878"
+  authors:
+    - name: "Shuofei Qiao"
+      equal_contribution: true
+    - name: "Yunxiang Wei"
+      equal_contribution: true
+    - name: "Busheng Zhang"
+      equal_contribution: true
+    - name: "Mengru Wang"
+      equal_contribution: true
+    - name: "Jiazheng Fan"
+      equal_contribution: true
+    - name: "Huadong Jian"
+    - name: "Bin Wu"
+    - name: "Shumin Deng"
+    - name: "Yida Xue"
+    - name: "Zifan Cheng"
+    - name: "Xiang Chen"
+    - name: "Dan Zhang"
+    - name: "Junfeng Fang"
+    - name: "Ningyu Zhang"
+    - name: "Keyan Ding"
+    - name: "Qiang Zhang"
+    - name: "Jeff Z. Pan"
+    - name: "Emine Yilmaz"
+    - name: "Huajun Chen"
+  venue: "arXiv preprint, 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2605.22878"
+    - label: "Code"
+      url: "https://github.com/zjunlp/SciAtlas"
+    - label: "Demo"
+      url: "http://sciatlas.openkg.cn/"

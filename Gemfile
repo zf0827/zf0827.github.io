@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "csv"
-gem "bigdecimal"
+# Match the Jekyll major/minor used by this site's GitHub Pages build.
+gem "jekyll", "~> 3.10.0"
 gem "webrick", "~> 1.8"

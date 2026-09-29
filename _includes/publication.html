@@ -1,0 +1,27 @@
+{% assign publication = include.publication %}
+<article class="publication-item">
+  <a class="publication-item__thumb" href="{{ publication.url | escape }}">
+    <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}">
+  </a>
+  <div class="publication-item__content">
+    <p class="publication-item__title">{{ publication.title | escape }}</p>
+    <p class="publication-item__authors">
+      {%- for author in publication.authors -%}
+        {%- unless forloop.first -%}, {% endunless -%}
+        {%- if author.name == site.title -%}
+          <strong>{{ author.name | escape }}</strong>
+        {%- else -%}
+          {{ author.name | escape }}
+        {%- endif -%}
+        {%- if author.equal_contribution -%}<sup>*</sup>{%- endif -%}
+      {%- endfor -%}
+    </p>
+    <p class="publication-item__venue">{{ publication.venue | escape }}</p>
+    <p class="publication-item__links">
+      {% for link in publication.links %}
+        {% unless forloop.first %}<span>/</span>{% endunless %}
+        <a href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+      {% endfor %}
+    </p>
+  </div>
+</article>

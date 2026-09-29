@@ -2,12 +2,11 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    {% include head-custom.html %}
   </head>
   <body>
     <div class="site-shell">
@@ -52,15 +51,6 @@
               </a>
             {% endif %}
 
-            {% if site.scholar_url %}
-              <a class="profile-link" href="{{ site.scholar_url }}" target="_blank" rel="noreferrer" aria-label="Google Scholar">
-                <span class="profile-link__icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-7 8.18V15c0 2.76 3.13 5 7 5s7-2.24 7-5v-3.82l-7 3.82-7-3.82Z"></path>
-                  </svg>
-                </span>
-              </a>
-            {% endif %}
 
             {% if site.cv_url %}
               <a class="profile-link" href="{{ site.cv_url | relative_url }}" target="_blank" rel="noreferrer" aria-label="CV">

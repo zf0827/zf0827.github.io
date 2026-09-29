@@ -1,15 +1,9 @@
----
----
-
 :root {
-  --bg: #f5f1e8;
   --panel: rgba(255, 253, 249, 0.92);
-  --panel-strong: #fffdf9;
   --text: #1f2933;
   --muted: #5f6c77;
   --line: rgba(31, 41, 51, 0.12);
   --accent: #8f4f2b;
-  --accent-soft: rgba(143, 79, 43, 0.12);
   --shadow: 0 24px 60px rgba(47, 38, 27, 0.12);
 }
 
@@ -190,15 +184,6 @@ img {
 
 .about-copy p {
   margin: 0;
-}
-
-.topic-list {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.topic-list li + li {
-  margin-top: 0.35rem;
 }
 
 .publication-list {
