@@ -10,14 +10,13 @@ title: Yunxiang Wei
     </p>
     <div class="about-copy">
       <p>
-        My primary research interest lies in CodeLLMs and Agents. I am particularly interested in deploying LLMs in real-world tasks such as coding and scientific research.
+        My research interests lie in <strong>LLMs and agents for software engineering and scientific research</strong>, with an emphasis on <strong>trustworthiness, reasoning, and knowledge grounding</strong>.
       </p>
       <p>
-        In coding, my work focuses on the reliability of AI-generated code.
-        In scientific discovery, I am interested in equipping AI systems with interdisciplinary knowledge to support idea generation, evaluation, and verification.
+        In software engineering, I study reliable coding agents for real-world software tasks, including training-data detection, uncertainty estimation, and repository-level reasoning. In scientific research, I develop knowledge infrastructure and agentic systems that help AI systems retrieve interdisciplinary evidence, discover research opportunities, evaluate scientific ideas, and support rigorous inquiry.
       </p>
       <p>
-        My long-term goal is to build automated systems with continual knowledge learning capability as well as reliability.
+        My long-term goal is to build AI systems that can continually acquire and organize knowledge, reason over evidence, and assist with reliable scientific and engineering work.
       </p>
     </div>
   </div>
@@ -40,7 +39,7 @@ title: Yunxiang Wei
           Tianlin Li<sup>*</sup>, <strong>Yunxiang Wei</strong><sup>*</sup>, Zhiming Li, Aishan Liu, Qing Guo,
           Xianglong Liu, Dongning Sun, Yang Liu
         </p>
-        <p class="publication-item__venue">arXiv preprint, 2025. Revised manuscript under review at IEEE Transactions on Software Engineering (TSE).</p>
+        <p class="publication-item__venue">arXiv preprint, 2025.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2507.17389">arXiv</a>
           <span>/</span>
@@ -77,7 +76,7 @@ title: Yunxiang Wei
         <p class="publication-item__authors">
           <strong>Yunxiang Wei</strong>, Zhenyu Lei, Jundong Li
         </p>
-        <p class="publication-item__venue">arXiv preprint, 2026. Under (Phase 2) review at AAAI 2027.</p>
+        <p class="publication-item__venue">arXiv preprint, 2026.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2609.31176">arXiv</a>
         </p>
@@ -123,7 +122,7 @@ title: Yunxiang Wei
           Yida Xue, Zifan Cheng, Xiang Chen, Dan Zhang, Junfeng Fang, Ningyu Zhang,
           Keyan Ding, Qiang Zhang, Jeff Z. Pan, Emine Yilmaz, Huajun Chen
         </p>
-        <p class="publication-item__venue">arXiv preprint, 2026. Under review at Nature Computational Science.</p>
+        <p class="publication-item__venue">arXiv preprint, 2026.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2605.22878">arXiv</a>
           <span>/</span>
