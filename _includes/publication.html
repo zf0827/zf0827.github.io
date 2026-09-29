@@ -1,10 +1,10 @@
 {% assign publication = include.publication %}
 <article class="publication-item">
   <a class="publication-item__thumb" href="{{ publication.url | escape }}">
-    <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}">
+    <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}" width="136" height="85" loading="lazy" decoding="async">
   </a>
   <div class="publication-item__content">
-    <p class="publication-item__title">{{ publication.title | escape }}</p>
+    <p class="publication-item__title"><a href="{{ publication.url | escape }}">{{ publication.title | escape }}</a></p>
     <p class="publication-item__authors">
       {%- for author in publication.authors -%}
         {%- unless forloop.first -%}, {% endunless -%}
@@ -19,7 +19,6 @@
     <p class="publication-item__venue">{{ publication.venue | escape }}</p>
     <p class="publication-item__links">
       {% for link in publication.links %}
-        {% unless forloop.first %}<span>/</span>{% endunless %}
         <a href="{{ link.url | escape }}">{{ link.label | escape }}</a>
       {% endfor %}
     </p>
