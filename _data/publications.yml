@@ -120,3 +120,41 @@
       url: "https://github.com/zjunlp/SciAtlas"
     - label: "Demo"
       url: "http://sciatlas.openkg.cn/"
+
+# Metadata: arXiv 2608.12036v3; contribution marks verified from PDF page 1.
+- title: "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence"
+  image: "/images/papers/mechanist.png"
+  image_alt: "Mechanist"
+  url: "https://arxiv.org/abs/2608.12036"
+  authors:
+    - name: "Mengru Wang"
+      equal_contribution: true
+    - name: "Junfeng Fang"
+      equal_contribution: true
+    - name: "Shuofei Qiao"
+      equal_contribution: true
+    - name: "Zhenqian Xu"
+    - name: "Haoming Xu"
+    - name: "Haoxiong Wang"
+    - name: "Shumin Deng"
+    - name: "Linyi Yang"
+    - name: "Xin Xu"
+    - name: "Yunzhi Yao"
+    - name: "Dan Zhang"
+    - name: "Fei Shen"
+    - name: "Zhixiang Cui"
+    - name: "Buqiang Xu"
+    - name: "Haozhe Luo"
+    - name: "Yunxiang Wei"
+    - name: "Ningyu Zhang"
+    - name: "Julian McAuley"
+    - name: "Tat Seng Chua"
+    - name: "Huajun Chen"
+  venue: "arXiv preprint, 2026."
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2608.12036"
+    - label: "Code"
+      url: "https://github.com/zjunlp/Mechanist"
+    - label: "Project"
+      url: "http://mechanist.openkg.cn/"
