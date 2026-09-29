@@ -75,3 +75,16 @@ user's browser/OS combination; there is no JavaScript scroll interception.
 Paper content remains in _data/publications.yml. On mobile, the profile becomes
 compact and the paper entries stack. Keyboard focus, a skip link, image sizes,
 font preloads, and a print layout are included.
+
+## Education logos
+
+Education entries live in index.html. Logo assets in images/education/ retain
+their original vector artwork and are displayed transparently on the paper background.
+
+- Zhejiang University seal: Wikimedia-hosted SVG,
+  https://en.wikipedia.org/wiki/File:Zhejiang_University_Logo.svg
+- Illinois Block I: official university brand asset,
+  https://cdn.brand.illinois.edu/logos/block-i/orange-and-blue.svg
+
+Official source references and alternate versions are preserved locally in
+For_Codex_Sources/education-logos/; those reference materials are not published.
