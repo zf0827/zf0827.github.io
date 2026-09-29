@@ -10,7 +10,7 @@ title: Yunxiang Wei
     </p>
     <div class="about-copy">
       <p>
-        My research interests lie in AI research, with an emphasis on <strong>trustworthiness, reasoning, and knowledge grounding</strong>.
+        My research interests lie in LLMs and Agents for <strong>software engineering and scientific research</strong>, with an emphasis on trustworthiness, reasoning, and knowledge grounding.
       </p>
       <p>
         My long-term goal is to build AI systems that can continually acquire and organize knowledge, evolve through interaction and experience, and actively participate in real-world engineering and scientific work.
