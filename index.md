@@ -25,6 +25,7 @@ title: Yunxiang Wei
 
 <section class="page-section" id="publications">
   <h2>Publications</h2>
+  <p class="publication-note"><sup>*</sup> Equal contribution.</p>
   <div class="publication-list">
     <article class="publication-item">
       <a class="publication-item__thumb" href="https://arxiv.org/abs/2507.17389">
@@ -36,10 +37,10 @@ title: Yunxiang Wei
           Language Models
         </p>
         <p class="publication-item__authors">
-          Tianlin Li, <strong>Yunxiang Wei</strong>, Zhiming Li, Aishan Liu, Qing Guo,
+          Tianlin Li<sup>*</sup>, <strong>Yunxiang Wei</strong><sup>*</sup>, Zhiming Li, Aishan Liu, Qing Guo,
           Xianglong Liu, Dongning Sun, Yang Liu
         </p>
-        <p class="publication-item__venue">arXiv, 2025.</p>
+        <p class="publication-item__venue">arXiv preprint, 2025. Revised manuscript under review at IEEE Transactions on Software Engineering (TSE).</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2507.17389">arXiv</a>
           <span>/</span>
@@ -55,14 +56,30 @@ title: Yunxiang Wei
       <div class="publication-item__content">
         <p class="publication-item__title">Predicting Program Correctness With Ensemble Semantic Entropy</p>
         <p class="publication-item__authors">
-          <strong>Yunxiang Wei</strong>, Tianlin Li, Zheng Yuwei, Yanni Dong, Aishan Liu,
-          Xianglong Liu
+          <strong>Yunxiang Wei</strong>, Tianlin Li, Yuwei Zheng, Yanni Dong, Aishan Liu,
+          Qiang Hu, Xiaoyu Zhang, Mingfei Cheng, Jian Yang
         </p>
-        <p class="publication-item__venue">arXiv, 2026.</p>
+        <p class="publication-item__venue">arXiv preprint, 2026.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2603.27098">arXiv</a>
           <span>/</span>
-          <a href="https://github.com/zf0827/Ensemble-Semantic-Entropy/tree/master">Code</a>
+          <a href="https://github.com/zf0827/Ensemble-Semantic-Entropy">Code</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="publication-item">
+      <a class="publication-item__thumb" href="https://arxiv.org/abs/2609.31176">
+        <img src="/images/papers/semnav.png" alt="SemNav: Semantic Navigation for Repository-Level Issue Localization">
+      </a>
+      <div class="publication-item__content">
+        <p class="publication-item__title">SemNav: Semantic Navigation for Repository-Level Issue Localization</p>
+        <p class="publication-item__authors">
+          <strong>Yunxiang Wei</strong>, Zhenyu Lei, Jundong Li
+        </p>
+        <p class="publication-item__venue">arXiv preprint, 2026. Under (Phase 2) review at AAAI 2027.</p>
+        <p class="publication-item__links">
+          <a href="https://arxiv.org/abs/2609.31176">arXiv</a>
         </p>
       </div>
     </article>
@@ -81,7 +98,7 @@ title: Yunxiang Wei
           Ningyu Zhang, Hossein A. Rahmani, Yanshan Wang, Qiang Zhang, Keyan Ding,
           Jeff Z. Pan, Huajun Chen, Emine Yilmaz
         </p>
-        <p class="publication-item__venue">ICML regular, 2026.</p>
+        <p class="publication-item__venue">International Conference on Machine Learning (ICML), 2026.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2602.14367">arXiv</a>
           <span>/</span>
@@ -98,18 +115,21 @@ title: Yunxiang Wei
       </a>
       <div class="publication-item__content">
         <p class="publication-item__title">
-          SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research
+          SciAtlas: A Computable Atlas of Science for Knowledge-Grounded AI Research
         </p>
         <p class="publication-item__authors">
-          Shuofei Qiao<sup>*</sup>, <strong>Yunxiang Wei</strong><sup>*</sup>, Jiazheng Fan,
-          Bin Wu, Busheng Zhang, Mengru Wang, Yuqi Zhu, Ningyu Zhang, Keyan Ding,
-          Qiang Zhang, Huajun Chen
+          Shuofei Qiao<sup>*</sup>, <strong>Yunxiang Wei</strong><sup>*</sup>, Busheng Zhang<sup>*</sup>,
+          Mengru Wang<sup>*</sup>, Jiazheng Fan<sup>*</sup>, Huadong Jian, Bin Wu, Shumin Deng,
+          Yida Xue, Zifan Cheng, Xiang Chen, Dan Zhang, Junfeng Fang, Ningyu Zhang,
+          Keyan Ding, Qiang Zhang, Jeff Z. Pan, Emine Yilmaz, Huajun Chen
         </p>
-        <p class="publication-item__venue">arXiv, 2026.</p>
+        <p class="publication-item__venue">arXiv preprint, 2026. Under review at Nature Computational Science.</p>
         <p class="publication-item__links">
           <a href="https://arxiv.org/abs/2605.22878">arXiv</a>
           <span>/</span>
-          <a href="https://github.com/zjunlp/SciAtlas">SciAtlas</a>
+          <a href="https://github.com/zjunlp/SciAtlas">Code</a>
+          <span>/</span>
+          <a href="http://sciatlas.openkg.cn/">Demo</a>
         </p>
       </div>
     </article>
