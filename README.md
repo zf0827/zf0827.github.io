@@ -13,11 +13,10 @@ A self-contained Jekyll site with no theme, remote theme, custom plugin, or fron
 | `_layouts/default.html` | Profile sidebar and page shell |
 | `assets/css/style.css` | All styling and responsive layout |
 | `images/` | Profile photo and paper thumbnails |
-| `files/CV.pdf` | Downloadable CV |
 
 Publications follow YAML order. Author names matching `title` in the site configuration are bolded; `equal_contribution: true` adds an asterisk. Content is stored once, separately from presentation.
 
-`cv.html` and `publications.html` preserve existing URLs using `_layouts/redirect.html`. Internal image, stylesheet, and redirect URLs support an optional `baseurl`.
+`publications.html` preserves the publication entry URL using `_layouts/redirect.html`. CV links, the CV redirect, and the PDF are omitted from this branch. Internal image, stylesheet, and redirect URLs support an optional `baseurl`.
 
 ## Build and preview
 
@@ -50,9 +49,9 @@ JEKYLL_LIVERELOAD=1 scripts/jekyll-serve.sh
 - `master`: the flat paper design, built from that baseline with the same academic content.
 - `archive/master-before-paper-20260929`: recovery tag for legacy master (98a9b11). Its old scaffold is not part of this site.
 
-As checked on 2026-09-29, GitHub Pages publishes the root of `minimal-template`; the repository default branch is `master`. Changing the default branch alone does not change Pages' source.
+The production branch is `master`, published from the repository root through GitHub Pages. `minimal-template` is the preserved secondary baseline. Pages source and repository default branch are separate settings.
 
-`theme: null` explicitly disables Pages' theme fallback. The homepage names its layout directly and uses only built-in Jekyll/Liquid features. This cleanup requires no deployment setting changes. A later switch to the redesigned `master` should explicitly update the Pages source.
+`theme: null` explicitly disables Pages' theme fallback. The homepage names its layout directly and uses only built-in Jekyll/Liquid features. The publication source is explicitly set to master in GitHub Settings → Pages.
 
 ## Design
 

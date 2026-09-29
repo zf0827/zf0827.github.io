@@ -93,10 +93,10 @@ sup { font-size: 0.7em; line-height: 0; }
 .section-heading { display: flex; align-items: baseline; gap: 14px; margin-bottom: 21px; }
 .section-index { color: var(--accent); font: 500 11px/1 var(--sans); letter-spacing: 0.08em; font-variant-numeric: tabular-nums; }
 .section-heading h2 { margin: 0; font: 400 29px/1.15 var(--serif); letter-spacing: -0.3px; }
-.about-block { max-width: 720px; }
 .about-block p { margin: 0 0 15px; }
 .about-block p:last-child { margin-bottom: 0; }
 .about-lead { font-size: 17px; line-height: 1.7; }
+.about-lead strong:last-child { white-space: nowrap; }
 .about-copy { font-size: 15.5px; line-height: 1.8; }
 
 .publications-heading { margin-bottom: 0; padding-bottom: 18px; border-bottom: 1px solid var(--rule); }
